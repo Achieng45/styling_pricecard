@@ -1,0 +1,154 @@
+.main-container{
+    min-height:100vh;
+    background-color:black;
+    display:flex;
+    justify-content:space-between;flex-direction:column;
+    margin:20px    
+}
+.top-component{
+    background-color: #bc1e4a;
+    width:18rem;
+    color:white;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.outercard{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 0;
+    
+}
+.outerouter{
+   width: 1000px;
+   height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: rgb(183, 187, 191);
+}
+.pricingcards{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+width: 80%;
+margin: 0 auto;
+ padding: 1rem; 
+flex-wrap: wrap;
+}
+   
+
+
+
+.innercard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    /* align-items: start; */
+    background-color: #22272d;
+    width: calc(90%/3);
+    content-visibility: auto;
+
+}
+
+.choose{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+}
+.toggle{
+    display: flex;
+   justify-content: center;
+   color: #fff;
+}
+  
+.my-planner{
+    position: relative;
+    top: 15%;
+   
+}
+.price{
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+.title{
+float: right;
+margin: 10px auto;
+}
+.drop{
+    /* align-items: start; */
+    /* float: left; */
+    
+      margin: -20px; 
+    /* margin-top: auto;  */
+    /* background-color: transparent;  */
+    width:180px;
+}
+
+.matselect .mat-select-panel{
+    width:150px;
+    background-color: red;
+    
+}
+/* .list{
+     margin-top: 70px; 
+
+} */
+.button{
+    border-color: #bc1e4a;
+  
+   display: block;
+   margin-bottom: 20px;
+   font-size: 1.2em;
+   height: 40px;
+   width: 120px;
+   background-color: transparent;
+   color: #fff;
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-right: 20px;
+
+}
+.mat .mat-select-panel{
+   background-color: transparent;
+}
+::ng-deep .mat-select-panel {
+    background-color: transparent !important;
+}
+
+.list li::marker {
+    list-style-type: disc; /* Set list item bullets to default disc style */
+    color: #bc1e4a; /* Set color of default list item bullets to pink */
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+select {
+    padding: 10px;
+    background: none !important;
+    color: white ;
+    border: 1px solid #fff;
+
+    
+}
+option{
+    background-color: #22272d;
+}
+.active {
+    background-color: #bc1e4a !important; 
+    border-color: #bc1e4a !important;
+}
