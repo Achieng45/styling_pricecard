@@ -58,7 +58,7 @@ flex-wrap: wrap;
     color: #fff;
     /* align-items: start; */
     background-color: #22272d;
-    width: calc(90%/3);
+    width: calc(80%/3);
     content-visibility: auto;
 
 }
